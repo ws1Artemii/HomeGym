@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Artemiy/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/acc_ic.xml" value="0.266" />
+        <entry key="..\:/Users/Artemiy/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/passw_ic.xml" value="0.266" />
+        <entry key="..\:/Users/Artemiy/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello2.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/Artemiy/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello3.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/Artemiy/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/acc_ic.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/boxbutton.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/boxbutton_y.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/circle.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/circle_w.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/circle_y.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/female_xml.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/female_xml_y.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/ic_launcher_background.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/icmuscle.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/icwelost.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/icyoga.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/launch.xml" value="0.1735" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/male_xml_w.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/male_xml_y.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/passw_ic.xml" value="0.332" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello1.xml" value="0.22" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello2.xml" value="0.22" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello3.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello5.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_launch_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cl/AndroidStudioProjects/HomeGym/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

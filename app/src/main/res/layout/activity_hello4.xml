@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".HelloActivity.Hello4Activity">
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="How often do you exercise?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Step 4/5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55.5dp"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/next">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/newbie"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/boxbutton_w"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Newbie"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Just getting started"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:clickable="false"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/keepon"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/boxbutton_w"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Keep on"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-2 times a week"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:clickable="false"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/advanced"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/boxbutton_w"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="24sp">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Advanced"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More than 3 times a week"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:clickable="false"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginHorizontal="55.5dp"
+        android:background="@drawable/boxbutton_w"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
